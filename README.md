@@ -23,3 +23,10 @@ img, embed, object, video {
   max-width: 100%
 }
 ```
+### 3. 点按目标大小
+```css
+nav a, button {
+  min-width: 48px;
+  min-height: 48px;
+}
+```
