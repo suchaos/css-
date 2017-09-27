@@ -14,3 +14,12 @@
   clear: both;
 }
 ```
+### 2. 防止图片等溢出
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+```css
+img, embed, object, video {
+  max-width: 100%
+}
+```
